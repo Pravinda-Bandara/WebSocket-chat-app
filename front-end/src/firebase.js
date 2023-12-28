@@ -14,11 +14,10 @@ const firebaseConfig = {
     appId: "1:66182590318:web:0a2ea750ca4983b2ef1b7f"
 };
 
+
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 
-
 // Initialize Firebase Authentication and get a reference to the service
 const auth = getAuth(app);
-
-export {auth,app}
+export {app, auth};
