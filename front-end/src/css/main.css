@@ -83,7 +83,8 @@ main, #output-wrapper {
     border-radius: 50%;
     background-size: contain;
     cursor: pointer;
-    position: relative
+    position: relative;
+    margin-top: 14px;
 }
 
 #account-details {
@@ -166,4 +167,41 @@ main, #output-wrapper {
     100% {
         transform: rotate(360deg);
     }
+}
+header{
+    background-color: #052c65;
+}
+.chat-logo{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+main{
+    padding: 10px;
+    background-color: #052c65;
+
+
+}
+#output-wrapper{
+    background-color: white;
+}
+#btn-send{
+    background-color: white;
+    border: 1px solid black;
+    color: #052c65;
+}
+
+#btn-send:hover{
+    background-color: #052c65;
+    color: white;
+}
+
+body{
+    width: 30vw;
+    margin: auto;
+    background-color: black;
+    padding: 50px 0;
+}
+h1{
+    color: #052c65;
 }

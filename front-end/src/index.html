@@ -16,12 +16,11 @@
 </head>
 
 <body class="d-flex flex-column vh-100">
-<header class="p-2 border-bottom
-            d-flex justify-content-between">
+<header class="px-3 pb-2 border border-white d-flex justify-content-between align-items-center">
     <div>
-        <h2>Chat App <i class="bi bi-chat-dots"></i></h2>
+        <h1 class="pt-3 text-white ">Chat App <i class="bi bi-chat-dots"></i></h1>
     </div>
-    <div id="account">
+    <div id="account" >
         <div id="account-details" class="d-none">
             <div id="user-name">Name</div>
             <div id="user-email">Email</div>
@@ -29,13 +28,13 @@
         </div>
     </div>
 </header>
-<main class="flex-grow-1 d-flex flex-column">
+<main class="flex-grow-1 d-flex flex-column border border-white p-2">
     <div id="output-wrapper" class="border flex-grow-1 pb-2">
         <div id="output" class="p-2 h-100"></div>
     </div>
-    <form action="javascript:void(0)" class="border-top d-flex gap-2 p-2">
+    <form action="javascript:void(0)" class="border-top d-flex gap-2 pt-2">
         <input class="form-control" id="txt-message" type="text" placeholder="Eg. Hello Guys!">
-        <button class="btn btn-primary" id="btn-send">Send</button>
+        <button class="btn border border-primary " id="btn-send">Message Send<i class="px-1 bi bi-send-fill"></i></button>
     </form>
 </main>
 <div id="login-overlay" class="vw-100 d-none
