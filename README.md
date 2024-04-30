@@ -16,7 +16,6 @@ Welcome to the Chat Application with Spring WebSocket! This project enables real
 ### Preview
 
 ![Screenshot](./screenshots/Login1.png)
-![Screenshot](./screenshots/Login2.jpg)
 ![Screenshot](./screenshots/Chat.png)
 
 ## Technologies Used
